@@ -1,0 +1,6 @@
+.debug {
+  max-height: 200px;
+  max-width: 100%;
+  overflow: auto;
+  padding: 12px;
+}

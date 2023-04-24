@@ -1,0 +1,34 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 100vh;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+@supports (min-height: 100dvh) {
+  .layout {
+    min-height: 100dvh;
+  }
+}
+
+.layout > header {
+  width: 100%;
+  padding: 24px;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.main > nav {
+  width: 200px;
+}
+
+.main > main {
+  flex-grow: 1;
+}

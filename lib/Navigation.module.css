@@ -1,0 +1,16 @@
+.nav > ul > li {
+  text-align: center;
+}
+
+.link {
+  color: #eeee33;
+}
+
+.link:hover {
+  color: #ff0033;
+  text-decoration: underline;
+}
+
+.link.active {
+  color: #ff8833 !important;
+}
